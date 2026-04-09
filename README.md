@@ -9,9 +9,10 @@ int main() {
     scanf("%f", &rate);
     printf("Enter Time (in years): ");
     scanf("%f", &time);
-    simpleInterest = (principal * rate * time) /       100;
-    compoundInterest = principal * pow((1 + rate /     100), time) - principal;
-    printf("\nSimple Interest = %.2f",                 simpleInterest);
-    printf("\nCompound Interest = %.2f",               compoundInterest);
+    simpleInterest = (principal * rate * time) /100;
+    compoundInterest = principal * pow((1 + rate / 100), time) - principal;
+    printf("\nSimple Interest = %.2f",simpleInterest);
+    printf("\nCompound Interest = %.2f",compoundInterest);
+    printf("\n25331A05I6");
     return 0;
     }
